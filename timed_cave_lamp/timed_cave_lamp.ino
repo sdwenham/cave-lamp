@@ -49,7 +49,7 @@ ISR(WDT_vect){
     delay(500);
     analogWrite(LEDPin, modes[2]);
   }
-  analogWrite(LEDPin, modes[1]); //Uhoh how did we get here! bets turn the lamp on
+  analogWrite(LEDPin, modes[1]); //Uhoh how did we get here! best turn the lamp on
 }
 
 void loop() {
